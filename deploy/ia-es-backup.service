@@ -1,0 +1,14 @@
+[Unit]
+Description=Verified daily SQLite backup for IA-ES
+
+[Service]
+Type=oneshot
+User=ia-es
+Group=ia-es
+ExecStart=/opt/ia-es/venv/bin/python /opt/ia-es/current/deploy/backup.py
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/backups/ia-es /var/lib/ia-es

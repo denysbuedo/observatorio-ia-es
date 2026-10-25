@@ -4,7 +4,7 @@ Aplicación local de consulta y administración con backend Python, catálogo SQ
 
 ## Ejecutar
 
-Requisito: Python 3.11 o superior.
+Requisito: Python 3.10 o superior. Verificado en Python 3.10 de Ubuntu 22.04 y Python 3.13 en Windows.
 
 ```powershell
 python server.py
@@ -13,6 +13,8 @@ python server.py
 Abrir **http://127.0.0.1:8000**. Para detener: `Ctrl+C`.
 
 Opciones: `python server.py --port 8080 --database runtime/otro.sqlite3`.
+
+Para el despliegue en la VM Ubuntu 22.04 detrás del HAProxy que termina TLS, consultar [deploy/README.md](deploy/README.md). Ese perfil utiliza `production.py`, Waitress, Nginx en **8080**, servicio systemd y base de datos persistente; admite exclusivamente `https://ia.mes.gob.cu` para las escrituras y deshabilita la creación pública de administradores.
 
 El servidor escucha únicamente en la interfaz local por defecto. El catálogo sigue disponible para consulta sin sesión; la autenticación protege la administración de instituciones, usuarios, proyectos, formación, productos, doctorandos, mediciones e historial. Todos los contenidos gestionados cuentan con edición, revisión independiente, publicación e historial. El uso compartido requiere preparar un servicio de producción, HTTPS y revisar qué contenidos deben ser públicos.
 

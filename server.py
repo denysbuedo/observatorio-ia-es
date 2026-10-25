@@ -205,7 +205,7 @@ def make_handler(catalogue):
             actor = catalogue.admin.session(token) if token else self.current_user()
             return {'user': {k:v for k,v in actor.items() if k != 'csrf_token'} if actor else None,
                     'csrf_token': actor['csrf_token'] if actor else None,
-                    'setup_required': catalogue.admin.setup_required(), 'roles': ROLES, 'institution_kinds': KINDS}
+                    'setup_required': getattr(self.server,'allow_setup',True) and catalogue.admin.setup_required(), 'roles': ROLES, 'institution_kinds': KINDS}
 
         def session_cookie(self, token=''):
             secure = '; Secure' if getattr(self.server, 'secure_cookie', False) else ''
@@ -227,6 +227,11 @@ def make_handler(catalogue):
 
         def check_origin(self):
             host = self.headers.get('Host', '')
+            public_origin=getattr(self.server,'public_origin',None)
+            if public_origin:
+                if host.lower()!=urlparse(public_origin).netloc.lower() or self.headers.get('Origin')!=public_origin:
+                    raise ApiError(403,'La operación debe realizarse desde el dominio autorizado del observatorio.')
+                return
             port = self.server.server_port
             scheme = 'https' if getattr(self.server, 'secure_cookie', False) else 'http'
             allowed = {f'{scheme}://{hostname}:{port}' for hostname in ('127.0.0.1','localhost','[::1]')}
@@ -234,10 +239,16 @@ def make_handler(catalogue):
             if expected not in allowed or self.headers.get('Origin') != expected:
                 raise ApiError(403, 'La operación debe realizarse desde el observatorio local.')
 
+        def check_host(self):
+            origin=getattr(self.server,'public_origin',None)
+            if origin and self.headers.get('Host','').lower()!=urlparse(origin).netloc.lower():
+                raise ApiError(400,'Dominio no autorizado.')
+
         def do_GET(self):
             url = urlparse(self.path)
             path = url.path
             try:
+                self.check_host()
                 if path == '/api/health':
                     return self.send(200, {'status': 'ok'})
                 if path == '/api/auth/session':
@@ -321,6 +332,8 @@ def make_handler(catalogue):
                 path = urlparse(self.path).path
                 if self.command == 'POST' and path in ('/api/auth/setup', '/api/auth/login'):
                     if path.endswith('/setup'):
+                        if not getattr(self.server,'allow_setup',True):
+                            raise ApiError(403,'La configuración inicial está deshabilitada en este despliegue.')
                         if not ipaddress.ip_address(self.client_address[0]).is_loopback:
                             raise ApiError(403, 'La configuración inicial solo se permite desde este equipo.')
                         token = catalogue.admin.setup(data)
