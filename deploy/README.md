@@ -59,8 +59,8 @@ El instalador respalda y verifica la configuración previa, conserva una base ya
 
 ```bash
 systemctl status ia-es nginx ia-es-backup.timer --no-pager
-curl -fsS -H 'Host: ia.mes.gob.cu' http://127.0.0.1:8080/api/health
-curl -fsS -H 'Host: ia.mes.gob.cu' http://127.0.0.1:8080/api/overview
+curl --noproxy '*' -fsS -H 'Host: ia.mes.gob.cu' http://127.0.0.1:8080/api/health
+curl --noproxy '*' -fsS -H 'Host: ia.mes.gob.cu' http://127.0.0.1:8080/api/overview
 journalctl -u ia-es -n 50 --no-pager
 nginx -t
 ```
@@ -68,7 +68,7 @@ nginx -t
 Desde HAProxy:
 
 ```bash
-curl -fsS -H 'Host: ia.mes.gob.cu' http://10.46.4.98:8080/api/health
+curl --noproxy '*' -fsS -H 'Host: ia.mes.gob.cu' http://10.46.4.98:8080/api/health
 ```
 
 Las pruebas de login, dominio y cookies están en `tests/test_production.py`. La suite Python se ejecuta con el Python de Ubuntu antes de desplegar. Las verificaciones de frontend se ejecutan localmente con Node; Node no es dependencia del servidor.
@@ -76,3 +76,20 @@ Las pruebas de login, dominio y cookies están en `tests/test_production.py`. La
 `ia-es-backup.timer` crea diariamente a las 03:15 UTC, con hasta 15 minutos de variación, una copia autónoma mediante la API de backup de SQLite y verifica su integridad. No se copia un archivo WAL activo con `cp`. Puede forzarse una copia con `systemctl start ia-es-backup.service`. La retención y la copia externa se gestionan según la política institucional; el servicio no borra respaldos automáticamente.
 
 Para cambiar código, conservar `/var/lib/ia-es`, extraer otra versión y usar el instalador. El enlace anterior queda registrado en el respaldo de configuración. Un rollback de código requiere seleccionar aquella versión y reiniciar el servicio; comprobar antes compatibilidad del esquema. No restaurar bases antiguas indiscriminadamente: podrían perderse cambios científicos y cuentas.
+
+
+## Estado verificado del despliegue inicial
+
+- Fecha: 2026-10-25 UTC (2026-10-24 en Cuba).
+- Revisión desplegada: `562ffc253c746b272ae873c20433ca1216d4d03d`.
+- Release: `/opt/ia-es/releases/20261025T023355Z-562ffc25`.
+- Respaldo de configuración: `/var/backups/ia-es-deploy/20261025T023400Z`.
+- Servicios `ia-es`, `nginx` y `ia-es-backup.timer`: activos y habilitados al arranque.
+- Importación: un administrador conservado; sesiones anteriores retiradas solo de la copia importada.
+- SQLite: comprobación de integridad correcta; copias anterior y posterior al arranque verificadas.
+- HAProxy → VM: página y healthcheck HTTP 200, incluido healthcheck HTTP/1.0 sin Host.
+- Origen HTTP incorrecto: 403; creación inicial de cuentas: 403; API privada sin sesión: 401.
+- Pruebas: 68 de backend en Python 3.10 de la VM y 24 de frontend locales.
+- La asignación del dominio al backend y DNS no se modificaron en este despliegue. El backend está listo para esa integración.
+
+En el HAProxy hay un proxy HTTP de entorno: para comprobar la ruta privada real con curl es necesario `--noproxy '*'`. Sin esa opción la petición pasa por otro origen y es rechazada por la lista de acceso de Nginx, como está previsto.
