@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Observatorio de Inteligencia Artificial en la Educación Superior de Cuba. Instituciones, investigación, formación y evidencias.">
+  <title>IA-ES · Observatorio de Inteligencia Artificial</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/projects.js" defer></script>
+  <script src="/registry.js" defer></script>
+  <script src="/dashboard.js" defer></script>
+  <script src="/admin.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#content">Saltar al contenido</a>
+<aside class="sidebar">
+  <a class="brand" href="#overview"><span class="brand-mark">ia<span>·</span></span><span><strong>IA–ES</strong><small>OBSERVATORIO</small></span></a>
+  <div class="institutional">Inteligencia Artificial<br>en la Educación Superior</div>
+  <nav aria-label="Navegación principal" id="navigation"></nav>
+  <div class="sidebar-bottom"><span class="status-dot"></span> Catálogo de trabajo<br><small>Ministerio de Educación Superior<br>Cuba · Actualización 2026</small></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><div><span class="top-context">MES / OBSERVATORIO IA–ES</span><span class="top-separator">/</span><span id="breadcrumb">Panorama general</span></div><div class="top-actions"><a class="text-link" href="/api/export/catalogue" download="ia-es-catalogo.json">Descargar datos <span aria-hidden="true">↗</span></a><a class="text-link account-link" id="account-link" href="#admin">Administración · Acceder</a></div></header>
+  <main id="content" tabindex="-1"><div class="loading">Cargando el catálogo del observatorio…</div></main>
+  <footer>IA–ES · Conocimiento para la transformación universitaria <span>Datos reportados · Validación institucional pendiente</span></footer>
+</div>
+<dialog id="detail"><div class="dialog-toolbar"><span>FICHA DEL REGISTRO</span><button class="icon-button" id="close-detail" aria-label="Cerrar ficha">×</button></div><div id="detail-body"></div></dialog>
+<div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>

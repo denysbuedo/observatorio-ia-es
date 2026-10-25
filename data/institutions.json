@@ -1,0 +1,247 @@
+[
+  {
+    "code": "UPR",
+    "name": "Universidad de Pinar del Río Hermanos Saíz Montez",
+    "province": "Pinar del Río",
+    "aliases": [
+      "UPR",
+      "Universidad de Pinar del Río"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UIJ",
+    "name": "Universidad de la Isla de la Juventud Jesús Montané Orosa",
+    "province": "Isla de la Juventud",
+    "aliases": [
+      "UIJ",
+      "Universidad de la Isla de la Juventud"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UA",
+    "name": "Universidad de Artemisa",
+    "province": "Artemisa",
+    "aliases": [
+      "UA",
+      "Universidad de Artemisa"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UH",
+    "name": "Universidad de La Habana",
+    "province": "La Habana",
+    "aliases": [
+      "UH",
+      "Universidad de La Habana",
+      "UH - Facultad de Comunicación",
+      "UH - Psicología"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "ESCEG",
+    "name": "Escuela Superior de Cuadros del Estado y el Gobierno",
+    "province": "La Habana",
+    "aliases": [
+      "ESCEG"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UCPEJV",
+    "name": "Universidad de Ciencias Pedagógicas Enrique José Varona",
+    "province": "La Habana",
+    "aliases": [
+      "UCPEJV"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UCI",
+    "name": "Universidad de Ciencias Informáticas",
+    "province": "La Habana",
+    "aliases": [
+      "UCI",
+      "Universidad de las Ciencias Informáticas"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UCCFD",
+    "name": "Universidad de Ciencias de la Cultura Física y el Deporte Manuel Fajardo",
+    "province": "La Habana",
+    "aliases": [
+      "UCCFD"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "CUJAE",
+    "name": "Universidad Tecnológica de La Habana José Antonio Echeverría",
+    "province": "La Habana",
+    "aliases": [
+      "CUJAE"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UNAH",
+    "name": "Universidad Agraria de la Habana Fructuoso Rodríguez Pérez",
+    "province": "Mayabeque",
+    "aliases": [
+      "UNAH",
+      "Universidad Agraria de La Habana"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "INCA",
+    "name": "Instituto Nacional de Ciencias Agrícolas",
+    "province": "Mayabeque",
+    "aliases": [
+      "INCA"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "CENSA",
+    "name": "Centro Nacional de Sanidad Agropecuaria",
+    "province": "Mayabeque",
+    "aliases": [
+      "CENSA"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "ICA",
+    "name": "Instituto de Ciencia Animal",
+    "province": "Mayabeque",
+    "aliases": [
+      "ICA"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UM",
+    "name": "Universidad de Matanzas",
+    "province": "Matanzas",
+    "aliases": [
+      "UM",
+      "Universidad de Matanzas"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UCF",
+    "name": "Universidad de Cienfuegos Carlos Rafael Rodríguez",
+    "province": "Cienfuegos",
+    "aliases": [
+      "UCf",
+      "Universidad de Cienfuegos"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UCLV",
+    "name": "Universidad Central Martha Abreu de las Villas",
+    "province": "Villa Clara",
+    "aliases": [
+      "UCLV",
+      "Universidad Central «Marta Abreu» de Las Villas"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UNISS",
+    "name": "Universidad de Sancti Spiritu José Martí Pérez",
+    "province": "Sancti Spíritus",
+    "aliases": [
+      "UNISS",
+      "Universidad de Sancti Spíritus"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UNICA",
+    "name": "Universidad de Ciego de Ávila Máximo Gómez Báez",
+    "province": "Ciego de Ávila",
+    "aliases": [
+      "UNICA",
+      "Universidad de Ciego de Ávila"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UC",
+    "name": "Universidad de Camaguey Ignacio Agramonte y Loynaz",
+    "province": "Camagüey",
+    "aliases": [
+      "UC",
+      "Universidad de Camagüey"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "ULT",
+    "name": "Universidad de las Tunas",
+    "province": "Las Tunas",
+    "aliases": [
+      "ULT",
+      "Universidad de Las Tunas"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UHO",
+    "name": "Universidad de Holguín",
+    "province": "Holguín",
+    "aliases": [
+      "UHo",
+      "Universidad de Holguín"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UMoa",
+    "name": "Universidad de Moa Dr. Antonio Núñez Jiménez",
+    "province": "Holguín",
+    "aliases": [
+      "UMoA",
+      "Universidad de Moa"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UDG",
+    "name": "Universidad de Granma",
+    "province": "Granma",
+    "aliases": [
+      "UDG",
+      "Universidad de Granma"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UO",
+    "name": "Universidad de Oriente",
+    "province": "Santiago de Cuba",
+    "aliases": [
+      "UO",
+      "Universidad de Oriente"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  },
+  {
+    "code": "UG",
+    "name": "Universidad de Guantánamo",
+    "province": "Guantánamo",
+    "aliases": [
+      "UG",
+      "Universidad de Guantánamo"
+    ],
+    "name_status": "Listado suministrado por el responsable del proyecto"
+  }
+]
