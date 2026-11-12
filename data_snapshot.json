@@ -34,19 +34,19 @@
     },
     {
       "Centro": "CUJAE",
-      "Profesores que imparten IA (declarado)": "",
-      "Graduados posgrado IA (declarado)": "",
-      "Doctorandos (declarado)": "",
-      "Proyectos (declarado)": "",
-      "Programas (declarado)": "",
-      "Productos (declarado)": "",
-      "Doctorandos (registros anexo)": "",
-      "Proyectos (registros anexo)": "",
-      "Programas/ofertas (registros anexo)": "",
-      "Productos (registros anexo)": "",
+      "Profesores que imparten IA (declarado)": "43",
+      "Graduados posgrado IA (declarado)": "14",
+      "Doctorandos (declarado)": "16",
+      "Proyectos (declarado)": "7",
+      "Programas (declarado)": "6",
+      "Productos (declarado)": "0",
+      "Doctorandos (registros anexo)": 16,
+      "Proyectos (registros anexo)": 7,
+      "Programas/ofertas (registros anexo)": 6,
+      "Productos (registros anexo)": 0,
       "Estado evidencia": "Reportado",
-      "Observaciones de conciliación": "",
-      "Fuente principal": "TABLAS PARA MINISTRO IA.docx"
+      "Observaciones de conciliación": "El anexo contiene 7 proyectos completos y una fila vacía de plantilla; se cargan los 7 registros. Productos declarados: 0.",
+      "Fuente principal": "FUENTES_CUJAE.docx"
     },
     {
       "Centro": "UCI",
@@ -1731,6 +1731,90 @@
       "Estado evidencia": "Reportado",
       "Fuente": "informe_IA_MES_2026_tablas UH.docx",
       "Observación de calidad": "Aprobado para iniciar en 2027; no debe contarse como proyecto activo 2026."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Proyecto / iniciativa": "Desarrollo de un prototipo de sistema energético inteligente autónomo (Smart grid) con control sinérgico de los procesos de generación y distribución de energía eléctrica. PN211LH005-048",
+      "Código": "PN211LH005-048",
+      "Tipo programa ciencia": "Programa Nacional de Ciencia, Tecnología e Innovación",
+      "Entidad ejecutora principal": "Universidad Tecnológica de La Habana José Antonio Echeverría",
+      "Entidades participantes": "CUJAE",
+      "Jefe / responsable": "Nayma Cepero Perez.",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Estado evidencia": "Reportado",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional. Clasificación de trabajo y mapeo B1–B6 pendientes."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Proyecto / iniciativa": "Modelo de Gestión de Redes Basada en Intenciones",
+      "Código": "",
+      "Tipo programa ciencia": "PNAP (Proyecto empresarial con ETECSA)",
+      "Entidad ejecutora principal": "ETECSA",
+      "Entidades participantes": "CUJAE (FITE, CERTI)",
+      "Jefe / responsable": "Por Etecsa, Ismanuel Basulto Díaz; Por Cujae, Caridad E. Anías Calderón",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Estado evidencia": "Reportado",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional. Clasificación de trabajo y mapeo B1–B6 pendientes."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Proyecto / iniciativa": "Incremento de la eficiencia de los sistemas de producción de aguardientes y rones mediante aplicación de técnicas de aprendizaje automatizado (machine learning).",
+      "Código": "",
+      "Tipo programa ciencia": "Programa sectorial PNCT01. Producción de alimentos y su agroindustria",
+      "Entidad ejecutora principal": "FIQ",
+      "Entidades participantes": "Ronera San José",
+      "Jefe / responsable": "Dr. C. Lourdes Zumalacárregui de Cátrdenas",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Estado evidencia": "Reportado",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional. Clasificación de trabajo y mapeo B1–B6 pendientes."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Proyecto / iniciativa": "Uso de la Minería de Datos para la justificación e implementación de los atributos de calidad del Ingrediente farmacéutico activo del Heberprot-P",
+      "Código": "",
+      "Tipo programa ciencia": "Programa sectorial Buicubafarma",
+      "Entidad ejecutora principal": "CIGB",
+      "Entidades participantes": "FIQ",
+      "Jefe / responsable": "Dr. C Miladys Limonta Fernández",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Estado evidencia": "Reportado",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional. Clasificación de trabajo y mapeo B1–B6 pendientes."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Proyecto / iniciativa": "PN 3602 LH 002-101 Producción de biocombustibles y energía en una biorrefinería a partir de residuos de la agroindustria azucarera con un enfoque de economía circular.",
+      "Código": "PN3602LH002-101",
+      "Tipo programa ciencia": "PNCT02. Desarrollo de la agroindustria de la caña de azúcar",
+      "Entidad ejecutora principal": "FIQ",
+      "Entidades participantes": "ICIDCA",
+      "Jefe / responsable": "Dr. C. Osney Pérez Ones",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Estado evidencia": "Reportado",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional. Clasificación de trabajo y mapeo B1–B6 pendientes."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Proyecto / iniciativa": "AI Models for physical frailty monitoring through an inertial sensors-based wireless network",
+      "Código": "",
+      "Tipo programa ciencia": "PAP",
+      "Entidad ejecutora principal": "Cujae",
+      "Entidades participantes": "- CNeuro; - CITED; - Hospital Militar Carlos J. Finlay",
+      "Jefe / responsable": "Fidel Ernesto Hernández Montero",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Estado evidencia": "Reportado",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional. Clasificación de trabajo y mapeo B1–B6 pendientes."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Proyecto / iniciativa": "AI Models for the industrial monitoring and diagnosis through the application of a data logger device",
+      "Código": "",
+      "Tipo programa ciencia": "PAP",
+      "Entidad ejecutora principal": "Cujae",
+      "Entidades participantes": "",
+      "Jefe / responsable": "Fidel Ernesto Hernández Montero",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Estado evidencia": "Reportado",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional. Clasificación de trabajo y mapeo B1–B6 pendientes."
     }
   ],
   "programs": [
@@ -2580,6 +2664,72 @@
       "Estado evidencia": "Reportado",
       "Fuente": "ULT.docx",
       "Observación de calidad": "La relación con IA se clasifica solo según lo explícitamente descrito en el reporte."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Programa / oferta": "Programa Doctoral de Telecomunicaciones y Electrónica",
+      "Tipo de oferta": "Doctorado",
+      "Coordinador / responsable": "Fidel Ernesto Hernández Montero",
+      "Línea / relación con IA": "Procesamiento Digital de Señales e Imágenes",
+      "Clasificación de trabajo": "Por clasificar",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Programa / oferta": "Programa Doctoral de Ingeniería Industrial y Sistemas",
+      "Tipo de oferta": "Doctorado",
+      "Coordinador / responsable": "Dr. C. Ing. José A. Vilalta Alonso",
+      "Línea / relación con IA": "Sistema de Información",
+      "Clasificación de trabajo": "Por clasificar",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Programa / oferta": "Programa Doctoral de Ingeniería Informática.",
+      "Tipo de oferta": "Doctorado",
+      "Coordinador / responsable": "Dr. C. Ing. Lisandra Bravo",
+      "Línea / relación con IA": "Inteligencia computacional",
+      "Clasificación de trabajo": "Por clasificar",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Programa / oferta": "Programa Doctoral de Ciencias de la Ingeniería de los procesos Químicos, Biolotecnológicos y alimentarios.",
+      "Tipo de oferta": "Doctorado",
+      "Coordinador / responsable": "Dr. C. Ing. Luis Cruz",
+      "Línea / relación con IA": "Toma de deciones",
+      "Clasificación de trabajo": "Por clasificar",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Programa / oferta": "Programa de maestría de Informática Empresarial",
+      "Tipo de oferta": "Maestría",
+      "Coordinador / responsable": "Dra. C Raisa Socorro",
+      "Línea / relación con IA": "Inteligencia computacional",
+      "Clasificación de trabajo": "Por clasificar",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Programa / oferta": "Promgrama de Maestría de Ingeniería Idustrial y Sistema",
+      "Tipo de oferta": "Maestría",
+      "Coordinador / responsable": "Dra. C. Sonia Fleitas Triana",
+      "Línea / relación con IA": "Sistema de Información",
+      "Clasificación de trabajo": "Por clasificar",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
     }
   ],
   "doctorands": [
@@ -3146,6 +3296,150 @@
       "Estado evidencia": "Reportado",
       "Fuente": "ULT.docx",
       "Observación de calidad": "El tema reportado no menciona IA explícitamente; se conserva como registro relacionado hasta validación."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Ernesto Alberto Álvarez",
+      "Tema": "Dimensionamiento de sistemas híbridos de energía utilizando algoritmos multicriterio basados en inteligencia artificial.",
+      "Programa doctoral": "Ingeniería Eléctrica",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Lisner Cruz Sánchez",
+      "Tema": "Diseño y Optimización Fuera de Línea de un Controlador Difuso Multi-capa para la Regulación Primaria de Frecuencia de un BESS con Restricción de Ciclos Diarios",
+      "Programa doctoral": "Ingeniería Eléctrica",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Ariel Baloira Reyes (profesor del CETI)",
+      "Tema": "Agente basado en aprendizaje por refuerzo para la gestión automatizada de la ciberseguridad en entornos heterogéneos.",
+      "Programa doctoral": "Telecomunicaciones y Electrónica",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Ismanuel Basulto Díaz",
+      "Tema": "Modelo de Gestión de Redes Basada en Intenciones",
+      "Programa doctoral": "Telecomunicaciones y Electrónica",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Alejandro Rodríguez Borges",
+      "Tema": "Optimización multiobjetivo de una superestructura de biorrefinería de caña de azúcar sostenible",
+      "Programa doctoral": "Ciencias de la ingeniería de los procesos químicos biotecnológicos y alimentarios",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Roy Peña Cossio",
+      "Tema": "Desarrollo de un modelo híbrido para predecir mermas por evaporación en el añejamiento de rones.",
+      "Programa doctoral": "Ciencias de la ingeniería de los procesos químicos biotecnológicos y alimentarios",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Daniel Treto López",
+      "Tema": "Diseño de un proceso de fermentación para la producción de ácido fumárico a partir de paja de arroz",
+      "Programa doctoral": "Ciencias de la ingeniería de los procesos químicos biotecnológicos y alimentarios",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Arletis Cruz Llerena",
+      "Tema": "Circularidad en biorrefinerías de caña de azúcar: esquemas de producción integrada para la obtención de productos químicos y energía",
+      "Programa doctoral": "Ciencias de la ingeniería de los procesos químicos biotecnológicos y alimentarios",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Dayron Reyes Domínguez",
+      "Tema": "Modelo de madurez de la Industria 4.0",
+      "Programa doctoral": "Programa TIC Universidad Transilvania, Romania.",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Tony García Álvarez",
+      "Tema": "Estrategia combinada para la formación de equipos",
+      "Programa doctoral": "Programa Colaborativo de IA con la Universidad de Granada.",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Mayli Estopiñan Lantuigua*",
+      "Tema": "Modelo de Predicción para detección para la detección temprana de la decepción estudiantil universitaria de las carreras del perfil de Informática en Cuba",
+      "Programa doctoral": "Programa Colaborativo de IA con la Universidad de Granada.",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Daniel Pardo Echevarría",
+      "Tema": "Ciberseguridad en aprendizaje federado.",
+      "Programa doctoral": "Programa Colaborativo de IA con la Universidad de Granada.",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Marcos Miguel Llamazares Blanco*",
+      "Tema": "Generación de hipótesis científicas aplicando técnicas de IA Generativa y Grafos de Conocimiento",
+      "Programa doctoral": "Programa Colaborativo de IA con la Universidad de Granada.",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Alejandro León Almgauer*",
+      "Tema": "Sistema de recomendación basado en Grandes Modelos de Lenguaje (LLM)",
+      "Programa doctoral": "Programa Colaborativo de IA con la Universidad de Granada.",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Óscar Miguel González Pratts",
+      "Tema": "Explorando la Minería de Aspectos y el Análisis de Sentimientos en Contextos de Información Imprecisa, Heterogénea y Multilingüe",
+      "Programa doctoral": "Programa Colaborativo de IA con la Universidad de Granada.",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
+    },
+    {
+      "Centro reportante": "CUJAE",
+      "Nombre": "Amanda de la Caridad Morales Morales",
+      "Tema": "Sistema explicable de optimización de rutas dinámicas de vehículos eléctricos basados en simulación de tráfico",
+      "Programa doctoral": "Programa doctoral de Informática",
+      "Estado evidencia": "Reportado",
+      "Fuente": "FUENTES_CUJAE.docx",
+      "Observación de calidad": "Información reportada en FUENTES_CUJAE.docx; pendiente de validación institucional."
     }
   ],
   "products": [
@@ -6048,14 +6342,21 @@
       "Fecha": "07/10/2026",
       "Aporte principal": "Reporte UMoA con profesores y proyecto de integración de IA en procesos formativos.",
       "Cautela / uso recomendado": "Varios campos permanecen sin datos."
+    },
+    {
+      "ID": "S28",
+      "Documento / fuente": "FUENTES_CUJAE.docx",
+      "Fecha": "2026",
+      "Aporte principal": "Información de CUJAE: capacidades, doctorandos, proyectos y programas de formación en IA.",
+      "Cautela / uso recomendado": "Datos reportados pendientes de validación. El anexo contiene 7 proyectos completos y una fila vacía; declara 0 productos."
     }
   ],
   "kpis": {
-    "ies_with_info": 20,
+    "ies_with_info": 21,
     "ies_total": 25,
-    "projects": 95,
-    "programs": 77,
-    "doctorands": 70,
+    "projects": 102,
+    "programs": 83,
+    "doctorands": 86,
     "products": 109,
     "actions": 49,
     "indicators": 35
@@ -6065,7 +6366,8 @@
     "B · I+D cuyo núcleo es IA": 8,
     "D · Relacionado; confirmar peso real de IA": 43,
     "A · Transformación de la Educación Superior": 11,
-    "D · Relacionado / confirmar peso real de IA": 4
+    "D · Relacionado / confirmar peso real de IA": 4,
+    "Sin clasificar; requiere revisión": 7
   },
   "bCounts": {
     "B1": 6,
